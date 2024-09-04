@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+
+html{scroll-behavior: smooth;}
+
+
+*{
+    font-family: proxima-nova, sans-serif;  
+    letter-spacing: 0.4px;
+    
+}
+.header-1{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(0, 102, 167);
+    position: fixed;
+    float: left;
+    z-index: 2;
+
+    transition: all 1s ease-in-out 0s;
+    margin-top: 0rem;
+}
+
+.three-line{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: block;
+    margin-top: 0.3rem;
+    width: 1.5rem;
+    margin-left: 50px;
+}
+
+.three-line-1{
+    padding-top: 12px;
+}
+
+.logo-img{
+    position: absolute;
+    left: 110px;
+    top: 6px;
+}
+
+.header-1-left,.header-1-right{
+    float: left;
+    width: 50%;
+    height: 3rem;
+}
+
+.radio-label-1{
+    color: white;
+    font-size: 0.8125rem;
+    margin-left: 5px;
+    letter-spacing: 0.4px;
+}
+
+.radio-btn-1{
+    margin-left: 75px;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.radio-btn-2{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgb(85, 204, 246);
+}
+
+.radio-label-2{
+    color: rgb(85, 204, 246);
+    font-size: 0.8125rem;
+    margin-left: 5px;
+    letter-spacing: 0.4px;
+}
+
+.header-1-right{
+    position: relative;
+}
+
+.location-box{
+    height: 21px;
+    width: 235px;
+    background-color: rgb(0, 88, 153);
+    position: absolute;
+    left: 320px;
+    top: 5px;
+    padding: 0.5rem 0.9rem;
+}
+
+.location-white{
+    height: 23px;
+    width: 17px;
+    margin-top: -1px;
+}
+
+.location-place{
+    font-size: 11px;
+    position: absolute;
+    left: 45px;
+    top: -18px;
+    color: white;
+    letter-spacing: 0.4px;
+}
+
+.pencil{
+    color: rgb(85, 204, 246);
+    position: absolute;
+    left: 237px;
+    top: 11px;
+    font-size: 13px;
+    border-bottom: 1px solid;
+}
+
+.avatar{
+    position: absolute;
+    left: 285px;
+    top: 3px;
+    height: 30px;
+}
+
+.name{
+    position: absolute;
+    left: 333px;
+    top: -24px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 0.4px;
+}
+
+.mob{
+    position: absolute;
+    left: 320px;
+    top: -9px;
+    font-size: 10px;
+    color: rgb(85, 204, 246);
+    letter-spacing: 0.4px;
+}
+
+.header-2{
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    margin-top: 3rem;
+    position: fixed;
+    box-shadow: rgb(210, 221, 233) 5px 5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+    z-index: 2;
+}
+
+.menu{
+    color: rgb(180, 191, 196);
+    font-size: 0.70em;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+
+.recommended{
+    border-bottom: 0.3em solid rgb(101, 171, 11);
+    color: rgb(82, 137, 166);
+    padding-bottom: 14px;
+    margin-top: 37px;
+}
+
+.section{
+    position: relative;
+    width: 65%;
+    min-height: 700px;
+    top: 6rem;
+    float: left;
+}
+
+.line{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    position: relative;
+    width: 96%;
+    top: 4.5rem;
+    left: 75px;
+    z-index: -1;
+}
+
+.recommended-1{
+    background: rgb(255, 255, 255);
+    border-radius: 2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 45px 0px 1rem 7.5rem;    ;
+}
+
+.row-1{
+    margin-left: 74px;
+    min-height: 500px;
+    width: 106%;
+    display: flex;
+    margin-bottom: -95px;
+}
+
+.box{
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 2px 4px 0px
+}
+
+.box-1{
+    width: 40%;
+    height: 353px;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.box-2{
+    width: 40%;
+    height: 353px;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.box-3{
+    width: 40%;
+    height: 353px;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: 140px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.veg-1{
+    position: absolute;
+    width: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.non-veg-1{
+    position: absolute;
+    width: 18px;
+    left: 9px;
+    top: 6px;
+}
+
+.heart{
+    position: absolute;
+    left: 264px;
+    top: 6px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.rate-1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 10px;
+    top: 104px;
+}
+
+.shadow{
+    width: 6rem;
+    height: 4rem;
+    position: absolute;
+    top: 75px;
+    left: 0;
+}
+
+.rate-2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 10px;
+    top: 104px;
+}
+
+.rate-3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 10px;
+    top: 104px;
+}
+
+.customise{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgba(53, 53, 53, 0.87);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.92;
+    width: 73px;
+    height: 10px;
+    position: absolute;
+    top: 108px;
+    font-size: 9.5px;
+    right: 13px;
+    padding: 3px;
+}
+
+.arrow{
+    color: rgb(82, 137, 166);
+}
+
+.food-name{
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 118px;
+}
+
+p{
+    line-height: 1.2;
+    font-size: 0.87rem;
+    color: rgba(122, 122, 122, 0.87);
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.line-2{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    width: 93%;
+    margin-left: 10px;
+}
+
+.line-2one{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    width: 93%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.size{
+    font-size: 12px;
+    position: absolute;
+    top: 224px;
+}
+
+.Crust{
+    font-size: 12px;
+    position: absolute;
+    top: 224px;
+    left: 136px;
+}
+
+.Medium{
+    position: absolute;
+    left: 10px;
+    top: 248px;
+}
+
+.New-Hand-Tossed{
+    position: absolute;
+    left: 146px;
+    top: 248px;
+}
+
+.line-3{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    position: absolute;
+    top: 288px;
+    width: 110px;
+    left: 10px;
+}
+
+.line-4{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    position: absolute;
+    top: 288px;
+    width: 144px;
+    left: 145px;
+}
+
+.down-arrow-1{
+    color: rgba(122, 122, 122, 0.87);
+    position: absolute;
+    left: 105px;
+    top: 272px;
+}
+
+.down-arrow-2{
+    color: rgba(122, 122, 122, 0.87);
+    position: absolute;
+    left: 273px;
+    top: 272px;    
+}
+
+button{
+    cursor: pointer;
+    padding: 0.433rem;
+    border: 1px solid rgb(0, 171, 0);
+    color: rgb(0, 171, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 0.68rem;
+    font-weight: 600;
+    position: absolute;
+    right: 13px;
+    top: 310px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.aside{
+    position: relative;
+    width: 35%;
+    min-height: 700px;
+    top: 6rem;
+    float: left;
+}
+
+.cart{
+    margin-top: 3rem;
+    min-height: 28rem;
+    max-height: 60vh;
+    width: 20rem;
+    margin-left: 150px;
+    background: rgb(255, 255, 255);
+    transition: all 1s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 2px 4px 0px;
+    position: fixed;
+}
+
+.cart-img{
+    margin-left: 154px;
+}
+
+.empty-cart{
+    font-size: 1.3rem;
+    margin-left: 42px;
+    margin-top: 135px;
+    text-transform: uppercase;
+    color: rgb(113, 128, 145);
+}
+
+.empty-cart-1{
+    font-size: 14px;
+    color: rgb(105, 129, 158);
+    margin-left: 42px;
+    margin-top: -18px;
+}
+
+.chat{
+    width: 62px;
+    height: 62px;
+    right: 25px;
+    top: 651px;
+    position: fixed;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.menu:hover{
+    color: gray;
+}
+
